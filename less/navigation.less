@@ -1,1 +1,34 @@
 // Navigation Styles here
+
+header {
+    border-bottom:: 1px solid black;
+    margin: 0 auto;
+    width: 800px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+        font-size: 4rem;
+        color: @font-color;
+    }//h1
+
+    nav {
+        margin-right: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        a {
+            font-size: 1.6rem;
+            text-decoration: none;
+            display: flex;
+            justify-content: space-between;
+            color: @font-color;
+        }//a
+
+        .first-anchor {
+            margin-left: 50px;
+        }
+    }//nav
+}//header
